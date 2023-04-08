@@ -1,0 +1,27 @@
+{
+  "name": "next-mantine-tailwind-example",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@emotion/react": "11.10.6",
+    "@mantine/core": "6.0.6",
+    "@mantine/hooks": "6.0.6",
+    "next": "13.3.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "18.15.11",
+    "@types/react": "18.0.33",
+    "@types/react-dom": "18.0.11",
+    "postcss": "8.4.21",
+    "tailwindcss": "3.3.1",
+    "typescript": "5.0.4"
+  }
+}
