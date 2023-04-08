@@ -22,8 +22,8 @@ Make sure you choose the following options:
 
 ```sh
 ❯ pnpm create next-app
-✔ Would you like to use TypeScript with this project? … No / Yes
-✔ Would you like to use Tailwind CSS with this project? … No / Yes
+✔ Would you like to use TypeScript with this project? … Yes
+✔ Would you like to use Tailwind CSS with this project? … Yes
 ✔ What import alias would you like configured? … @/*
 ```
 
