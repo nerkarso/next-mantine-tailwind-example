@@ -4,6 +4,8 @@
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+> The trick to make this work is to disable Mantine normalize styles and Tailwind preflight styles. Then implement a [custom preflight](theme/tailwind-preflight.ts) internal style in the [Next.js document](pages/_document.tsx).
+
 ## Dependencies
 
 - Next.js `v13.3`
@@ -30,10 +32,20 @@ Make sure you choose the following options:
 2. Install Mantine dependencies:
 
 ```sh
-pnpm add @mantine/core @mantine/hooks @emotion/react
+pnpm add @mantine/core @mantine/hooks @mantine/next @emotion/server @emotion/react
 ```
 
-3. Copy and paste the contents of `pages/_app.tsx`.
+3. Copy and paste the follwing files and folders into your project:
+
+```sh
+pages/
+  _app.tsx
+  _document.tsx
+theme/
+  emotion-cache.ts
+  tailwind-preflight.ts
+```
+
 4. You're all set!
 
 ## Getting Started
