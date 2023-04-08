@@ -35,7 +35,7 @@ Make sure you choose the following options:
 pnpm add @mantine/core @mantine/hooks @mantine/next @emotion/server @emotion/react
 ```
 
-3. Copy and paste the follwing files and folders into your project:
+3. Copy and paste the following files and folders into your project:
 
 ```sh
 pages/
