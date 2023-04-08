@@ -2,13 +2,13 @@ lockfileVersion: '6.0'
 
 dependencies:
   '@emotion/react':
-    specifier: ^11.10.6
+    specifier: 11.10.6
     version: 11.10.6(@types/react@18.0.33)(react@18.2.0)
   '@mantine/core':
-    specifier: ^6.0.6
+    specifier: 6.0.6
     version: 6.0.6(@emotion/react@11.10.6)(@mantine/hooks@6.0.6)(@types/react@18.0.33)(react-dom@18.2.0)(react@18.2.0)
   '@mantine/hooks':
-    specifier: ^6.0.6
+    specifier: 6.0.6
     version: 6.0.6(react@18.2.0)
   next:
     specifier: 13.3.0
@@ -595,8 +595,8 @@ packages:
     engines: {node: '>= 6'}
     dev: true
 
-  /caniuse-lite@1.0.30001474:
-    resolution: {integrity: sha512-iaIZ8gVrWfemh5DG3T9/YqarVZoYf0r188IjaGwx68j4Pf0SGY6CQkmJUIE+NZHkkecQGohzXmBGEwWDr9aM3Q==}
+  /caniuse-lite@1.0.30001475:
+    resolution: {integrity: sha512-6xvTuQbEjQvvdknKCA/B6w6edEG9OMrkTY3M2sre8Iau/5f9stnJA3RfnzUMZlVhcsp1Lyl2KsM8T2R8B3P0Kg==}
     dev: false
 
   /chalk@2.4.2:
@@ -943,7 +943,7 @@ packages:
       '@next/env': 13.3.0
       '@swc/helpers': 0.4.14
       busboy: 1.6.0
-      caniuse-lite: 1.0.30001474
+      caniuse-lite: 1.0.30001475
       postcss: 8.4.14
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
