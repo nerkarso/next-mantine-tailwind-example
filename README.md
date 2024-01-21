@@ -1,16 +1,18 @@
 # next-mantine-tailwind-example
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/nerkarso/next-mantine-tailwind-example)
+This example is a demonstration of how to integrate Mantine and Tailwind CSS in a Next.js project without conflicts.
 
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+> [!TIP]
+> The trick to make this work is to [disable Tailwind Preflight](https://tailwindcss.com/docs/preflight#disabling-preflight) and import a modified [preflight.css](styles/preflight.css).
 
-> The trick to make this work is to disable Mantine normalize styles and Tailwind preflight styles. Then implement a [custom preflight](theme/tailwind-preflight.ts) internal style in the [Next.js document](pages/_document.tsx).
+> [!NOTE]  
+> If you are using Next.js Pages Router and Mantine v6, then switch to branch v1.
 
 ## Dependencies
 
-- Next.js `v13.3`
-- Mantine `v6.0`
-- Tailwind CSS `v3.3`
+- Next.js `v14.1`
+- Mantine `v7.4`
+- Tailwind CSS `v3.4`
 
 ## Setup
 
@@ -24,7 +26,6 @@ Make sure you choose the following options:
 
 ```sh
 ❯ pnpm create next-app
-✔ Would you like to use TypeScript with this project? … Yes
 ✔ Would you like to use Tailwind CSS with this project? … Yes
 ✔ What import alias would you like configured? … @/*
 ```
@@ -32,18 +33,17 @@ Make sure you choose the following options:
 2. Install Mantine dependencies:
 
 ```sh
-pnpm add @mantine/core @mantine/hooks @mantine/next @emotion/server @emotion/react
+pnpm add @mantine/core @mantine/hooks
 ```
 
 3. Copy and paste the following files and folders into your project:
 
 ```sh
-pages/
-  _app.tsx
-  _document.tsx
-theme/
-  emotion-cache.ts
-  tailwind-preflight.ts
+app/
+  layout.tsx
+styles/
+  globals.css
+  preflight.css
 ```
 
 4. You're all set!
