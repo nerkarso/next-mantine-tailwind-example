@@ -3,7 +3,7 @@
 This example is a demonstration of how to integrate Mantine and Tailwind CSS in a Next.js project without conflicts.
 
 > [!TIP]
-> The trick to make this work is to [disable Tailwind Preflight](https://tailwindcss.com/docs/preflight#disabling-preflight) and import a modified [preflight.css](styles/preflight.css).
+> The trick to make this work is give [Tailwind base lower priority with the @layer rule](https://github.com/PauliCZ44/MantineTW/blob/main/src/index.css).
 
 > [!NOTE]  
 > If you are using Next.js Pages Router and Mantine v6, then switch to branch v1.

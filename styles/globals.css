@@ -1,6 +1,7 @@
-@import './preflight.css';
-@import 'tailwindcss/base';
 @import '@mantine/core/styles.css';
-/* Other Mantine package styles should come here */
-@import 'tailwindcss/components';
-@import 'tailwindcss/utilities';
+
+@layer tailwind {
+  @tailwind base;
+}
+@tailwind components;
+@tailwind utilities;
