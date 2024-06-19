@@ -1,8 +1,10 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
     output: 'standalone',
-    turbotrace: {
-        logDetail: true
+    experimental: {
+        turbotrace: {
+            logDetail: true
+        }
     }
 };
 
