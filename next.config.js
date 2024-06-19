@@ -1,11 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    output: 'standalone',
-    experimental: {
-        turbotrace: {
-            logDetail: true
-        }
-    }
+    output: 'standalone'
 };
 
 module.exports = nextConfig;
