@@ -10,9 +10,9 @@ This example is a demonstration of how to integrate Mantine and Tailwind CSS in 
 
 ## Dependencies
 
-- Next.js `v14.1`
-- Mantine `v7.4`
-- Tailwind CSS `v3.4`
+- Next.js `v14`
+- Mantine `v7`
+- Tailwind CSS `v3`
 
 ## Setup
 
@@ -43,7 +43,6 @@ app/
   layout.tsx
 styles/
   globals.css
-  preflight.css
 ```
 
 4. You're all set!
